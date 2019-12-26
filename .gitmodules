@@ -1,0 +1,3 @@
+[submodule "QSE-Spider-Indexer"]
+	path = QSE-Spider-Indexer
+	url = git@github.com:deweiliu/QSE-Spider-Indexer.git
