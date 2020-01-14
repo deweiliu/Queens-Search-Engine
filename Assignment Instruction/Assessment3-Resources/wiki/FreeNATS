@@ -1,0 +1,27 @@
+FreeNATS
+Original author(s)    David Cutting
+Developer(s)    PurplePixie Systems
+Initial release    March 2, 2008[1]
+Stable release    
+1.20.1b / November 14, 2018; 12 months ago[2]
+Operating system    Unix-like
+Platform    PHP / MySQL
+Available in    English
+Type    Network monitoring
+License    GNU General Public License
+Website    www.purplepixie.org/freenats/
+FreeNATS (the Free Network Automatic Testing System) is an open-source network monitoring software application[3] developed by David Cutting under the banner of PurplePixie Systems.
+
+FreeNATS is free software licensed under the terms of the GNU General Public License version 3 as published by the Free Software Foundation.
+
+
+Overview
+Monitoring of network services (SMTP, POP3, HTTP, ICMP (ping)[4]
+Limited monitoring of host resources (processor load, disk usage) on a majority of network operating systems, including Microsoft Windows and Linux through agent-based testing
+Plugin design that allows users to easily develop their own service checks depending on needs, by using PHP (or other languages or scripts wrapped in PHP)
+Some ability to define network host hierarchy using "master" nodes allowing link failures to suspend monitoring[5]
+Event-based system allowing failure notifications to be sent in customised email (suitable for email-to-SMS) or to utilise third-party notification scripts via a plug-in
+Ability to define event handlers to be run during service or host events for proactive problem resolution
+Automatic data retention cleanups
+Full web-interface for management and monitoring
+Ability to "publish" views and graphs within third-party web pages

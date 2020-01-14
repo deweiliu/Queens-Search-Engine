@@ -1,0 +1,85 @@
+Service-level agreement
+From Wikipedia, the free encyclopedia
+Jump to navigationJump to search
+For other uses, see SLA (disambiguation).
+A service-level agreement (SLA) is a commitment between a service provider and a client. Particular aspects of the service – quality, availability, responsibilities – are agreed between the service provider and the service user.[1] The most common component of an SLA is that the services should be provided to the customer as agreed upon in the contract. As an example, Internet service providers and telcos will commonly include service level agreements within the terms of their contracts with customers to define the level(s) of service being sold in plain language terms. In this case the SLA will typically have a technical definition in mean time between failures (MTBF), mean time to repair or mean time to recovery (MTTR); identifying which party is responsible for reporting faults or paying fees; responsibility for various data rates; throughput; jitter; or similar measurable details.
+
+
+Contents
+1	Overview
+2	Components
+3	Common metrics
+4	Specific examples
+4.1	Backbone Internet providers
+4.2	WSLA
+4.3	Cloud computing
+4.4	Outsourcing
+5	See also
+6	References
+7	External links
+Overview
+A service-level agreement is an agreement between two or more parties, where one is the customer and the others are service providers. This can be a legally binding formal or an informal "contract" (for example, internal department relationships). The agreement may involve separate organizations, or different teams within one organization. Contracts between the service provider and other third parties are often (incorrectly) called SLAs – because the level of service has been set by the (principal) customer, there can be no "agreement" between third parties; these agreements are simply "contracts." Operational-level agreements or OLAs, however, may be used by internal groups to support SLAs. If some aspect of a service has not been agreed with the customer, it is not an "SLA".
+
+SLAs commonly include many components, from a definition of services to the termination of agreement.[2] To ensure that SLAs are consistently met, these agreements are often designed with specific lines of demarcation and the parties involved are required to meet regularly to create an open forum for communication. Rewards and penalties applying to the provider are often specified. Most SLAs also leave room for periodic (annual) revisitation to make changes.[3]
+
+Since late 1980s SLAs have been used by fixed line telecom operators. SLAs are so widely used these days that larger organizations have many different SLAs existing within the company itself. Two different units in an organization script a SLA with one unit being the customer and another being the service provider. This practice helps to maintain the same quality of service amongst different units in the organization and also across multiple locations of the organization. This internal scripting of SLA also helps to compare the quality of service between an in-house department and an external service provider.[4]
+
+The output received by the customer as a result of the service provided is the main focus of the service level agreement.
+
+Service level agreements are also defined at different levels:
+
+Customer-based SLA: An agreement with an individual customer group, covering all the services they use. For example, an SLA between a supplier (IT service provider) and the finance department of a large organization for the services such as finance system, payroll system, billing system, procurement/purchase system, etc.
+Service-based SLA: An agreement for all customers using the services being delivered by the service provider. For example:
+A mobile service provider offers a routine service to all the customers and offers certain maintenance as a part of an offer with the universal charging.
+An email system for the entire organization. There are chances of difficulties arising in this type of SLA as level of the services being offered may vary for different customers (for example, head office staff may use high-speed LAN connections while local offices may have to use a lower speed leased line).
+Multilevel SLA: The SLA is split into the different levels, each addressing different set of customers for the same services, in the same SLA.
+Corporate-level SLA: Covering all the generic service level management (often abbreviated as SLM) issues appropriate to every customer throughout the organization. These issues are likely to be less volatile and so updates (SLA reviews) are less frequently required.
+Customer-level SLA: covering all SLM issues relevant to the particular customer group, regardless of the services being used.
+Service-level SLA: covering all SLM issue relevant to the specific services, in relation to this specific customer group.
+Components
+A well defined and typical SLA will contain the following components:[5]
+
+Type of service to be provided: It specifies the type of service and any additional details of type of service to be provided. In case of an IP network connectivity, type of service will describe functions such as operation and maintenance of networking equipment, connection bandwidth to be provided, etc.
+The service's desired performance level, especially its reliability and responsiveness: A reliable service will be the one which suffers minimum disruptions in a specific amount of time and is available at almost all times. A service with good responsiveness will perform the desired action promptly after the customer requests for it.
+Monitoring process and service level reporting: This component describes how the performance levels are supervised and monitored. This process involves gathering of different type of statistics, how frequently this statistics will be collected and how this statistics will be accessed by the customers.
+The steps for reporting issues with the service: This component will specify the contact details to report the problem to and the order in which details about the issue have to be reported. The contract will also include a time range in which the problem will be looked upon and also till when the issue will be resolved.
+Response and issue resolution time-frame: Response time-frame is the time period by which the service provider will start the investigation of the issue. Issue resolution time-frame is the time period by which the current service issue will be resolved and fixed.
+Repercussions for service provider not meeting its commitment: If the provider is not able to meet the requirements as stated in SLA then service provider will have to face consequences for the same. These consequences may include customer's right to terminate the contract or ask for a refund for losses incurred by the customer due to failure of service.
+Common metrics
+Service-level agreements can contain numerous service-performance metrics with corresponding service-level objectives. A common case in IT-service management is a call center or service desk. Metrics commonly agreed to in these cases include:
+
+Abandonment Rate: Percentage of calls abandoned while waiting to be answered.
+ASA (Average Speed to Answer): Average time (usually in seconds) it takes for a call to be answered by the service desk.
+TSF (Time Service Factor): Percentage of calls answered within a definite timeframe, e.g., 80% in 20 seconds.
+FCR (First-Call Resolution): Percentage of incoming calls that can be resolved without the use of a callback or without having the caller call back the helpdesk to finish resolving the case.[6]
+TAT (Turn-Around Time): Time taken to complete a certain task.
+TRT (total resolution time): Total time taken to complete a certain task.
+MTTR (Mean Time To Recover): Time taken to recover after an outage of service.
+Uptime is also a common metric, often used for data services such as shared hosting, virtual private servers and dedicated servers. Common agreements include percentage of network uptime, power uptime, number of scheduled maintenance windows, etc.
+
+Many SLAs track to the Information Technology Infrastructure Library specifications when applied to IT services.
+
+Specific examples
+Backbone Internet providers
+It is not uncommon for an internet backbone service provider (or network service provider) to explicitly state its own SLA on its website.[7][8][9] The U.S. Telecommunications Act of 1996 does not expressly mandate that companies have SLAs, but it does provide a framework for firms to do so in Sections 251 and 252.[10] Section 252(c)(1) for example ("Duty to Negotiate") requires Incumbent local exchange carriers (ILECs) to negotiate in good faith about matters such as resale and access to rights of way.
+
+WSLA
+A web service level agreement (WSLA) is a standard for service level agreement compliance monitoring of web services. It allows authors to specify the performance metrics associated with a web service application, desired performance targets, and actions that should be performed when performance is not met.
+
+WSLA Language Specification, version 1.0 was published by IBM on January 28, 2001.
+
+Cloud computing
+The underlying benefit of cloud computing is shared resources, which is supported by the underlying nature of a shared infrastructure environment. Thus, SLAs span across the cloud and are offered by service providers as a service-based agreement rather than a customer-based agreement. Measuring, monitoring and reporting on cloud performance is based on the end UX or their ability to consume resources. The downside of cloud computing relative to SLAs is the difficulty in determining the root cause of service interruptions due to the complex nature of the environment.
+
+As applications are moved from dedicated hardware into the cloud, they need to achieve the same or even more demanding levels of service than classical installations. SLAs for cloud services focus on characteristics of the data center and more recently include characteristics of the network (see carrier cloud) to support end-to-end SLAs.[11]
+
+Any SLA management strategy considers two well-differentiated phases: negotiating the contract and monitoring its fulfilment in real time. Thus, SLA management encompasses the SLA contract definition: the basic schema with the QoS parameters; SLA negotiation; SLA monitoring; SLA violation detection; and SLA enforcement—according to defined policies.
+
+The main point is to build a new layer upon the grid, cloud, or SOA middleware able to create a negotiation mechanism between the providers and consumers of services. An example is the EU–funded Framework 7 research project, SLA@SOI,[12] which is researching aspects of multi-level, multi-provider SLAs within service-oriented infrastructure and cloud computing, while another EU-funded project, VISION Cloud,[13] has provided results with respect to content-oriented SLAs.
+
+FP7 IRMOS also investigated aspects of translating application-level SLA terms to resource-based attributes in an effort to bridge the gap between client-side expectations and cloud-provider resource-management mechanisms.[14][15] A summary of the results of various research projects in the area of SLAs (ranging from specifications to monitoring, management and enforcement) has been provided by the European Commission.[16]
+
+Outsourcing
+Outsourcing involves the transfer of responsibility from an organization to a supplier. This new arrangement is managed through a contract that may include one or more SLAs. The contract may involve financial penalties and the right to terminate if any of the SLAs metrics are consistently missed. Setting, tracking and managing SLAs is an important part of the outsourcing relationship management (ORM) discipline. Specific SLAs are typically negotiated up front as part of the outsourcing contract and used as one of the primary tools of outsourcing governance.
+
+In software development, specific SLAs can apply to application outsourcing contracts in line with standards in software quality, as well as recommendations provided by neutral organizations like CISQ, which has published numerous papers on the topic (such as Using Software Measurement in SLAs[17]) that are available to the public.
