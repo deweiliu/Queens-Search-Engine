@@ -4,3 +4,6 @@
 [submodule "QSE-Searching"]
 	path = QSE-Searching
 	url = git@github.com:deweiliu/QSE-Searching.git
+[submodule "QSE-Terraform"]
+	path = QSE-Terraform
+	url = git@github.com:deweiliu/QSE-Terraform.git
