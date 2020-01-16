@@ -7,3 +7,6 @@
 [submodule "QSE-Terraform"]
 	path = QSE-Terraform
 	url = git@github.com:deweiliu/QSE-Terraform.git
+[submodule "QSE-Advertisements"]
+	path = QSE-Advertisements
+	url = git@github.com:deweiliu/QSE-Advertisements.git
